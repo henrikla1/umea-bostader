@@ -19,13 +19,14 @@
             background: white;
             padding: 20px;
             margin-top: 20px;
-            border-radius: 10px;
+            border-radius: 12px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
         .price {
             font-weight: bold;
             color: #27ae60;
+            font-size: 18px;
         }
 
         a {
@@ -37,21 +38,29 @@
 <body>
 
     <h1>Lediga lägenheter i Umeå</h1>
-    <p>Sammanställt av Sara ✨</p>
+    <p>Data från Bostaden i Umeå</p>
 
-    <div class="card">
-        <h2>2 rok – 54 kvm</h2>
-        <p class="price">6 950 kr/mån</p>
-        <p>Umedalen</p>
-        <a href="#">Se annons</a>
-    </div>
+    <div id="lista"></div>
 
-    <div class="card">
-        <h2>1 rok – 32 kvm</h2>
-        <p class="price">4 850 kr/mån</p>
-        <p>Ålidhem</p>
-        <a href="#">Se annons</a>
-    </div>
+    <script>
+        fetch("data/bostaden.json")
+            .then(response => response.json())
+            .then(bostader => {
+                const container = document.getElementById("lista");
+
+                bostader.forEach(b => {
+                    container.innerHTML += `
+                        <div class="card">
+                            <h2>${b.adress}</h2>
+                            <p><strong>${b.omrade}</strong></p>
+                            <p>${b.typ} • ${b.yta}</p>
+                            <p class="price">${b.hyra} kr/mån</p>
+                            <a href="${b.lank}" target="_blank">Se annons</a>
+                        </div>
+                    `;
+                });
+            });
+    </script>
 
 </body>
 </html>
