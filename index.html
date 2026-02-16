@@ -42,25 +42,40 @@
 
     <div id="lista"></div>
 
-    <script>
-        fetch("data/bostaden.json")
-            .then(response => response.json())
-            .then(bostader => {
-                const container = document.getElementById("lista");
+ <script>
+Promise.all([
+    fetch("data/bostaden.json").then(r => r.json()),
+    fetch("data/rikshem.json").then(r => r.json())
+])
+.then(([bostaden, rikshem]) => {
 
-                bostader.forEach(b => {
-                    container.innerHTML += `
-                        <div class="card">
-                            <h2>${b.adress}</h2>
-                            <p><strong>${b.omrade}</strong></p>
-                            <p>${b.typ} • ${b.yta}</p>
-                            <p class="price">${b.hyra} kr/mån</p>
-                            <a href="${b.lank}" target="_blank">Se annons</a>
-                        </div>
-                    `;
-                });
-            });
-    </script>
+    const container = document.getElementById("lista");
 
-</body>
-</html>
+    const alla = [
+        ...bostaden.map(b => ({...b, source: "Bostaden"})),
+        ...rikshem.map(r => ({
+            adress: r.adress,
+            omrade: r.omrade,
+            typ: r.rum + " rum",
+            yta: r.storlek + " kvm",
+            hyra: r.hyra,
+            lank: r.lank,
+            source: "Rikshem"
+        }))
+    ];
+
+    alla.forEach(b => {
+        container.innerHTML += `
+            <div class="card">
+                <h2>${b.adress}</h2>
+                <p><strong>${b.omrade}</strong></p>
+                <p>${b.typ} • ${b.yta}</p>
+                <p class="price">${b.hyra} kr/mån</p>
+                <p><em>${b.source}</em></p>
+                <a href="${b.lank}" target="_blank">Se annons</a>
+            </div>
+        `;
+    });
+
+});
+</script>
