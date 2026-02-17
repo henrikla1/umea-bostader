@@ -8,14 +8,6 @@
         "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/0102001050301/"
     },
     {
-        "adress": "Västra Prinsgatan 2",
-        "omrade": "Väst på stan",
-        "typ": "3 Rum och kök",
-        "yta": "71 kvm",
-        "hyra": "7435",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/0204003020203/"
-    },
-    {
         "adress": "Lagmansgatan 20",
         "omrade": "Grisbacka",
         "typ": "4 Rum och kök",
@@ -56,14 +48,6 @@
         "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2801001020107/"
     },
     {
-        "adress": "Rullstensgatan 156",
-        "omrade": "Nydalahöjd",
-        "typ": "2 Rum och kök, Stud",
-        "yta": "43 kvm",
-        "hyra": "5514",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2802001030101/"
-    },
-    {
         "adress": "Rullstensgatan 114",
         "omrade": "Nydalahöjd",
         "typ": "2 Rum och kök, Stud",
@@ -78,5 +62,21 @@
         "yta": "21 kvm",
         "hyra": "3866",
         "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2802101010106/"
+    },
+    {
+        "adress": "Rullstensgatan 10",
+        "omrade": "Nydalahöjd",
+        "typ": "Enkelrum, Stud 10Mån",
+        "yta": "21 kvm",
+        "hyra": "3866",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2802101010206/"
+    },
+    {
+        "adress": "Fysikgränd 9 B",
+        "omrade": "Ålidhem",
+        "typ": "Enkelrum, Stud 10Mån",
+        "yta": "20 kvm",
+        "hyra": "3660",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/3301005020103/"
     }
 ]
