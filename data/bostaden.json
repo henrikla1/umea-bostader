@@ -1,75 +1,11 @@
 [
     {
-        "adress": "Magasinsgatan 15",
-        "omrade": "Centrum",
-        "typ": "3 Rum och kök",
-        "yta": "76 kvm",
-        "hyra": "9931",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/0102001050301/"
-    },
-    {
-        "adress": "Lagmansgatan 20",
-        "omrade": "Grisbacka",
-        "typ": "4 Rum och kök",
-        "yta": "101 kvm",
-        "hyra": "10922",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/1102002010106/"
-    },
-    {
-        "adress": "Himlastigen 54",
-        "omrade": "Sandahöjd",
-        "typ": "4 Rum och kök",
-        "yta": "106 kvm",
-        "hyra": "11495",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2102023010001/"
-    },
-    {
-        "adress": "Ystarvägen 49 D",
+        "adress": "Ystarvägen 149",
         "omrade": "Västra Ersboda",
-        "typ": "3 Rum och kök",
-        "yta": "85 kvm",
-        "hyra": "8519",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2205003010001/"
-    },
-    {
-        "adress": "Norra Slevgränd 234",
-        "omrade": "Östra Ersboda",
-        "typ": "3 Rum och kök",
-        "yta": "80 kvm",
-        "hyra": "8737",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2302008030001/"
-    },
-    {
-        "adress": "Istidsgatan 35",
-        "omrade": "Nydalahöjd",
         "typ": "2 Rum och kök",
         "yta": "63 kvm",
-        "hyra": "7631",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2801001020107/"
-    },
-    {
-        "adress": "Rullstensgatan 114",
-        "omrade": "Nydalahöjd",
-        "typ": "2 Rum och kök, Stud",
-        "yta": "43 kvm",
-        "hyra": "5309",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2802006040101/"
-    },
-    {
-        "adress": "Rullstensgatan 10",
-        "omrade": "Nydalahöjd",
-        "typ": "Enkelrum, Stud 10Mån",
-        "yta": "21 kvm",
-        "hyra": "3866",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2802101010106/"
-    },
-    {
-        "adress": "Rullstensgatan 10",
-        "omrade": "Nydalahöjd",
-        "typ": "Enkelrum, Stud 10Mån",
-        "yta": "21 kvm",
-        "hyra": "3866",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2802101010206/"
+        "hyra": "7301",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2205104010102/"
     },
     {
         "adress": "Rullstensgatan 4",
@@ -78,5 +14,69 @@
         "yta": "21 kvm",
         "hyra": "3899",
         "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2802104010112/"
+    },
+    {
+        "adress": "Strombergs Väg 124",
+        "omrade": "Lilljansberget",
+        "typ": "1 Rum och kokvrå",
+        "yta": "28 kvm",
+        "hyra": "4978",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2805001010406/"
+    },
+    {
+        "adress": "Strombergs Väg 146",
+        "omrade": "Lilljansberget",
+        "typ": "2 Rum och kök",
+        "yta": "45 kvm",
+        "hyra": "6503",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2805203010204/"
+    },
+    {
+        "adress": "Kuratorvägen 29",
+        "omrade": "Ålidhöjd",
+        "typ": "2 Rum och kök, Stud",
+        "yta": "55 kvm",
+        "hyra": "7011",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/3101103010302/"
+    },
+    {
+        "adress": "Gluntens Väg 7",
+        "omrade": "Tunnelbacken",
+        "typ": "1 Rum och kokv, Stud 10Mån",
+        "yta": "30 kvm",
+        "hyra": "4633",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/3201301010201/"
+    },
+    {
+        "adress": "Fysikgränd 13 B",
+        "omrade": "Ålidhem",
+        "typ": "Enkelrum, Stud 10Mån",
+        "yta": "20 kvm",
+        "hyra": "3500",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/3301007030005/"
+    },
+    {
+        "adress": "Fysikgränd 25 A",
+        "omrade": "Ålidhem",
+        "typ": "Enkelrum, Stud 10Mån",
+        "yta": "20 kvm",
+        "hyra": "3606",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/3301013010104/"
+    },
+    {
+        "adress": "Fysikgränd 33",
+        "omrade": "Ålidhem",
+        "typ": "2 Rum och kök, Stud Möb",
+        "yta": "54 kvm",
+        "hyra": "5554",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/3301018010006/"
+    },
+    {
+        "adress": "Fysikgränd 33",
+        "omrade": "Ålidhem",
+        "typ": "3 Rum och kök, Stud Möb",
+        "yta": "65 kvm",
+        "hyra": "6847",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/3301018010201/"
     }
 ]
