@@ -1,5 +1,21 @@
 [
     {
+        "adress": "Ridvägen 20",
+        "omrade": "Väst på stan",
+        "typ": "3 Rum och kök",
+        "yta": "76 kvm",
+        "hyra": "13114",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/0208002030103/"
+    },
+    {
+        "adress": "Ridvägen 20",
+        "omrade": "Väst på stan",
+        "typ": "2 Rum och kokvrå",
+        "yta": "44 kvm",
+        "hyra": "8770",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/0208002030302/"
+    },
+    {
         "adress": "Löftets Gränd 3",
         "omrade": "Umedalen",
         "typ": "3 Rum och kök",
@@ -16,12 +32,12 @@
         "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2205101050009/"
     },
     {
-        "adress": "Ystarvägen 149",
-        "omrade": "Västra Ersboda",
-        "typ": "2 Rum och kök",
-        "yta": "63 kvm",
-        "hyra": "7301",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2205104010102/"
+        "adress": "Björnvägen 70",
+        "omrade": "Marieberg",
+        "typ": "3 Rum och kök",
+        "yta": "78 kvm",
+        "hyra": "9060",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2501006010101/"
     },
     {
         "adress": "Nydalavägen 6 A",
@@ -40,6 +56,14 @@
         "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2701007040201/"
     },
     {
+        "adress": "Axtorpsvägen 38 B",
+        "omrade": "Berghem",
+        "typ": "3 Rum och kök, Stud",
+        "yta": "64 kvm",
+        "hyra": "6601",
+        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2703001010103/"
+    },
+    {
         "adress": "Axtorpsvägen 40",
         "omrade": "Berghem",
         "typ": "Enkelrum, Stud 10Mån",
@@ -54,29 +78,5 @@
         "yta": "36 kvm",
         "hyra": "5774",
         "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2703307020301/"
-    },
-    {
-        "adress": "Istidsgatan 29",
-        "omrade": "Nydalahöjd",
-        "typ": "5 Rum och kök",
-        "yta": "122 kvm",
-        "hyra": "12263",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2801003050003/"
-    },
-    {
-        "adress": "Rullstensgatan 8",
-        "omrade": "Nydalahöjd",
-        "typ": "Enkelrum, Stud 10Mån",
-        "yta": "21 kvm",
-        "hyra": "3879",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2802102010213/"
-    },
-    {
-        "adress": "Rullstensgatan 168 J",
-        "omrade": "Nydalahöjd",
-        "typ": "2 Rum och kök, Stud",
-        "yta": "43 kvm",
-        "hyra": "5367",
-        "lank": "https://www.bostaden.umea.se/ledigt/detalj/id/2802305020001/"
     }
 ]
